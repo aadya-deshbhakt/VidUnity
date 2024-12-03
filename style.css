@@ -1,0 +1,217 @@
+/* General body styles */
+body {
+    font-family: 'Public Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #171bff;
+    overflow-x: hidden;
+  }
+  
+  a{
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  /* Fullscreen background with flexible content alignment */
+  .background_image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Fullscreen height */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; (Vertically center content)
+    align-items: center;     (Horizontally center content)
+    text-align: center; */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .branding{
+    background-color: #ffffff96;
+    max-width: 228px;
+    max-height: 84px;
+    border-radius: 25px;
+  }
+  
+  /* Header content styles */
+  .site-title {
+    font-size: 3rem;
+    color: #000000;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .site-title a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .site-navigation {
+    margin-top: -72px;
+    /*margin-left: 1200px;*/
+    display: none;
+  }
+  
+  .menu {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .menu-item a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Intro section */
+  .intro {
+    margin-top: 20px;
+    color: #000000;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .intro h1 {
+    font-size: 3.03rem;
+    margin-bottom: 10px;
+    margin-left: 451px;
+    background-color: #ffffff96;
+    max-width: 553px;
+    height: 84px;
+    border-radius: 25px;
+  }
+  .welcome_text{
+    position: relative;
+    top: 11px;
+  }
+  .intro h3 {
+    font-size: 2rem;
+    margin-left: 572px;
+    background-color: #ffffff96;
+    max-width: 316px;
+    height: 55px;
+    border-radius: 25px;
+  }
+  .what_is_vidunity{
+    position: relative;
+    top: 9px;
+  }
+  
+  .intro p {
+    font-size: 1.34rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    max-width: 1422px;
+    height: 154px;
+    margin-left: 22px;
+    background-color: #ffffff96;
+    border-radius: 25px;
+  }
+  .intro b{
+    position: relative;
+    top: 11px;
+  }
+  
+  /* Social Links */
+  .social-links ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-links li {
+    margin: 0 10px;
+    font-size: 1.2rem;
+  }
+
+  .instagram{
+    background-color: #ff8accc6;
+    width: 165px;
+    height: 55px;
+    border-radius: 25px;
+  }
+  .instagram b{
+    padding-left: 8px;
+    position: relative;
+    bottom: 11px;
+  }
+  .insta_icon{
+    width: 33px;
+    padding-left: 14px;
+    padding-top: 11px;
+  }
+
+  .google{
+    background-color: #0000009b;
+    width: 176px;
+    height: 55px;
+    border-radius: 25px;
+  }
+  .google b{
+    padding-left: 8px;
+    position: relative;
+    bottom: 11px;
+  }
+  .google_icon{
+    width: 33px;
+    padding-left: 14px;
+    padding-top: 11px;
+  }
+  
+  /* Footer */
+  footer {
+    display: none;
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    font-family: 'Public Sans', sans-serif;
+  }
+  
+  /* Align and layout styles */
+  .aligncenter {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .is-layout-constrained {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .is-layout-flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Font and typography adjustments */
+  .has-large-font-size {
+    font-size: 24px !important;
+  }
+  
+  .has-small-font-size {
+    font-size: 14px !important;
+  }
+  
+  /* Additional layout and alignment tweaks */
+  .has-text-align-center {
+    text-align: center;
+  }
+  
+  .is-layout-flow > .alignleft {
+    float: left;
+    margin-right: 2em;
+  }
+  
+  .is-layout-flow > .alignright {
+    float: right;
+    margin-left: 2em;
+  }
+  
