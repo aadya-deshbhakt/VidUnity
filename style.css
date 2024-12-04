@@ -1,10 +1,10 @@
 /* General body styles */
 body {
-    font-family: 'Public Sans', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #171bff;
     overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   a{
@@ -28,7 +28,7 @@ body {
   }
 
   .branding{
-    background-color: #ffffff96;
+    background-color: #ffffff47;
     max-width: 228px;
     max-height: 84px;
     border-radius: 25px;
@@ -40,7 +40,6 @@ body {
     color: #000000;
     margin-left: 20px;
     margin-top: 10px;
-    font-family: 'Montserrat', sans-serif;
   }
   
   .site-title a {
@@ -64,8 +63,6 @@ body {
   .menu-item a {
     text-decoration: none;
     color: #000000;
-    font-size: 1.2rem;
-    font-family: 'Poppins', sans-serif;
   }
   
   /* Intro section */
@@ -80,7 +77,7 @@ body {
     font-size: 3.03rem;
     margin-bottom: 10px;
     margin-left: 451px;
-    background-color: #ffffff96;
+    background-color: #ffffff47;
     max-width: 553px;
     height: 84px;
     border-radius: 25px;
@@ -92,7 +89,7 @@ body {
   .intro h3 {
     font-size: 2rem;
     margin-left: 572px;
-    background-color: #ffffff96;
+    background-color: #ffffff47;
     max-width: 316px;
     height: 55px;
     border-radius: 25px;
@@ -109,7 +106,7 @@ body {
     max-width: 1422px;
     height: 154px;
     margin-left: 22px;
-    background-color: #ffffff96;
+    background-color: #ffffff47;
     border-radius: 25px;
   }
   .intro b{
@@ -131,7 +128,7 @@ body {
   }
 
   .instagram{
-    background-color: #ff8accc6;
+    background-color: #ff8acca4;
     width: 165px;
     height: 55px;
     border-radius: 25px;
@@ -148,7 +145,7 @@ body {
   }
 
   .google{
-    background-color: #0000009b;
+    background-color: #00000083;
     width: 176px;
     height: 55px;
     border-radius: 25px;
@@ -171,7 +168,6 @@ body {
     padding: 20px;
     background-color: #333;
     color: #fff;
-    font-family: 'Public Sans', sans-serif;
   }
   
   /* Align and layout styles */
