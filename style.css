@@ -28,7 +28,7 @@ body {
   }
 
   .branding{
-    background-color: #ffffff47;
+    background-color: #ffffff66;
     max-width: 228px;
     max-height: 84px;
     border-radius: 25px;
@@ -77,7 +77,7 @@ body {
     font-size: 3.03rem;
     margin-bottom: 10px;
     margin-left: 451px;
-    background-color: #ffffff47;
+    background-color: #ffffff66;
     max-width: 553px;
     height: 84px;
     border-radius: 25px;
@@ -89,7 +89,7 @@ body {
   .intro h3 {
     font-size: 2rem;
     margin-left: 572px;
-    background-color: #ffffff47;
+    background-color: #ffffff66;
     max-width: 316px;
     height: 55px;
     border-radius: 25px;
@@ -106,7 +106,7 @@ body {
     max-width: 1422px;
     height: 154px;
     margin-left: 22px;
-    background-color: #ffffff47;
+    background-color: #ffffff66;
     border-radius: 25px;
   }
   .intro b{
