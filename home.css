@@ -529,6 +529,72 @@ nav{
         right: 12%;
     }
 }
+@media only screen and (min-width: 1001px) and (max-width:1100px){
+    body{
+        overflow-x: hidden;
+    }
+    .flex-div{
+        width: 128% !important;
+    }
+    .container, .large-container{
+        padding-left: 18%;
+        width: 110%;
+    }
+    .large-container{
+        padding-left: 8%;
+    }
+    .flex-div{
+        width: 110%;
+    }
+    .notification-bell{
+        padding-right: 3%;
+    }
+    .user-icon{
+        position: relative;
+        right: 3%;
+    }
+    .banner{
+        width: 117%;
+        margin-left: 3%;
+    }
+    .videos-container{
+        width: 117%;
+        margin-left: 3%;
+    }
+}
+@media only screen and (min-width: 1101px) and (max-width:1199px){
+    body{
+        overflow-x: hidden;
+    }
+    .flex-div{
+        width: 121% !important;
+    }
+    .container, .large-container{
+        padding-left: 18%;
+        width: 110%;
+    }
+    .large-container{
+        padding-left: 8%;
+    }
+    .flex-div{
+        width: 110%;
+    }
+    .notification-bell{
+        padding-right: 3%;
+    }
+    .user-icon{
+        position: relative;
+        right: 3%;
+    }
+    .banner{
+        width: 112%;
+        margin-left: 1%;
+    }
+    .videos-container{
+        width: 112%;
+        margin-left: 1%;
+    }
+}
 @media only screen and (max-width:1200px){
     body{
         overflow-x: hidden;
