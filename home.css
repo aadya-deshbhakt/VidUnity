@@ -102,20 +102,20 @@ nav{
     background: #ccc;
     width: 85%;
 }
-.following-list h3{
+.creators-list h3{
     font-size: 22px;
     margin: 20px 0;
     color: #000000;
     font-family: cursive;
 }
-.following-list a{
+.creators-list a{
     display: flex;
     align-items: center;
     margin-bottom: 20px;
     width: fit-content;
     flex-wrap: wrap;
 }
-.following-list a img{
+.creators-list a img{
     width: 50px;
     border-radius: 50px;
     margin-right: 20px;
