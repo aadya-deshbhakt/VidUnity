@@ -143,6 +143,9 @@ nav{
 .large-container{
     padding-left: 7%;
 }
+.banner{
+    display: none;
+}
 .banner img{
     width: 100%;
     border-radius: 12px;
