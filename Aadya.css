@@ -1,0 +1,1093 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+img{
+    cursor: pointer;
+}
+.flex-div{
+    display: flex;
+    align-items: center;
+}
+nav{
+    padding: 10px 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background: #ffffff;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.nav-right img{
+    margin-right: 0px;
+}
+.submit-video-icon{
+    width: 88px;
+}
+.user-icon{
+    width: 44px;
+    border-radius: 50px;
+}
+.notification-bell{
+    width: 77px;
+}
+.about-vidunity{
+    width: 121px;
+}
+.nav-middle img{
+    width: 34px;
+}
+.nav-middle .search-box{
+    border: 4px solid #7AC7FF;
+    padding: 8px 12px;
+    border-radius: 25px;
+}
+.nav-middle .search-box input{
+    width: 400px;
+    height: 22px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+.vidunity-logo{
+    width: 177px;
+    margin-left: 11px;
+}
+.moving-logo{
+    margin-left: 27px;
+}
+.menu-icon{
+    width: 36px;
+}
+/* -------sidebar------------- */
+.sidebar{
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    padding-left: 1.6%;
+    padding-top: 165px;
+    background: #ffffff;
+}
+.sidebar .home-icon{
+    width: 50px;
+}
+.sidebar .Following{
+    width: 50px;
+}
+.sidebar .Categories{
+    width: 50px;
+}
+.sidebar .History{
+    width: 50px;
+}
+.sidebar .Messages{
+    width: 50px;
+}
+.sidebar .Saved{
+    width: 50px;
+}
+.shortcut-links a img{
+    width: 20px;
+    margin-right: 20px;
+}
+.shortcut-links a{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: fit-content;
+    flex-wrap: wrap;
+}
+.shortcut-links a:first-child{
+    color: #6ec2ff;
+}
+.sidebar hr{
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    width: 85%;
+}
+.creators-list h3{
+    font-size: 22px;
+    margin: 20px 0;
+    color: #000000;
+    font-family: cursive;
+}
+.creators-list a{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: fit-content;
+    flex-wrap: wrap;
+}
+.creators-list a img{
+    width: 50px;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+.moving-sidebar{
+    width: 6.6%;
+}
+.moving-sidebar a p{
+    display: none;
+}
+.moving-sidebar h3{
+    display: none;
+}
+.moving-sidebar hr{
+    margin-bottom: 20px;
+}
+/* ----------- main --------- */
+.container{
+    background: transparent;
+    padding-left: 18%;
+    padding-right: 2%;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+.large-container{
+    padding-left: 7%;
+}
+.girlcalledaadya_page{
+    display: flex;
+}
+.girlcalledaadya_basicinfo{
+    background-color: #61BFF8C5;
+    border-radius: 25px;
+    height: 132px;
+    width: 550px;
+    display: flex;
+}
+.girlcalledaadya_basicinfo_size{
+    width: 616px;
+}
+.page-pfp{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    margin-top: 11px;
+    margin-left: 11px;
+}
+.creator-name{
+    font-size: 44px;
+    margin-top: 22px;
+    margin-left: 22px;
+}
+.number-of-videos{
+    font-size: 22px;
+    margin-top: 8px;
+    margin-left: 20px;
+}
+.girlcalledaadya_insta{
+    background-color: #61BFF8C5;
+    border-radius: 25px;
+    height: 132px;
+    width: 308px;
+    display: flex;
+    margin-left: 16px;
+    display: inline;
+}
+.girlcalledaadya_insta_size{
+    width: 385px;
+}
+.instagram_page{
+    display: flex;
+    margin-top: 14px;
+    margin-left: 14px;
+}
+.instagram_icon{
+    width: 44px;
+}
+.username{
+    margin-top: 14px;
+    margin-left: 11px;
+}
+.girlcalledaadya_youtube{
+    background-color: #61BFF8C5;
+    border-radius: 25px;
+    height: 132px;
+    width: 355px;
+    display: flex;
+    margin-left: 16px;
+    display: inline;
+}
+.girlcalledaadya_youtube_size{
+    width: 356px;
+}
+.youtube_page{
+    display: flex;
+    margin-top: 14px;
+    margin-left: 14px;
+}
+.youtube_icon{
+    width: 44px;
+}
+.videos-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-column-gap: 16px;
+    grid-row-gap: 30px;
+    margin-top: 15px;
+}
+.video-details .thumbnail{
+    width: 100%;
+    border-radius: 5%;
+}
+.video-details .flex-div{
+    align-items: flex-start;
+    margin-top: 7px;
+}
+.video-details .flex-div img{
+    width: 55px;
+    border-radius: 50px;
+    margin-right: 10px;
+    margin-left: -3px;
+}
+
+@media only screen and (max-width: 399px){
+    .flex-div{
+        width: 140% !important;
+    }
+    .flex-div .nav-left{
+        position: relative;
+        left: 5.5%;
+    }
+    .flex-div .nav-middle{
+        position: relative;
+        left: 5.5%;
+    }
+    .flex-div .nav-right{
+        position: relative;
+        left: 5.5%;
+    }
+    .menu-icon{
+        display: none;
+    }
+    .sidebar{
+        display: none;
+    }
+    .container, .large-container{
+        width: 132% !important;
+        padding-right: 25%;
+    }
+    .about-vidunity{
+        display: none;
+    }
+    .nav-middle .search-box input{
+        width: 110px;
+        height: 22px;
+        position: relative;
+        left: 6%;
+    }
+    .nav-right .submit-video-icon{
+        display: none;
+    }
+    .nav-right .notification-bell{
+        display: none;
+    }
+    .vidunity-logo{
+        width: 108%;
+        padding-right: 6%;
+    }
+    .nav-middle .search-box{
+        padding-left: 6%;
+        border: 3.3px solid #7AC7FF;
+        position: relative;
+        left: 6%;
+    }
+    .nav-right .user-icon{
+        width: 33%;
+        position: relative;
+        left: 30%;
+        border-radius: 50%;
+    }
+    .video-details .thumbnail{
+        width: 132%;
+        border-radius: 6.25%;
+        position: relative;
+        right: 12%;
+    }
+    .video-details .flex-div{
+        position: relative;
+        right: 12%;
+    }
+    .banner{
+        position: relative;
+    }
+    .video-details .flex-div{
+        position: relative;
+        top: 6px;
+    }
+}
+@media only screen and (min-width: 416px) and (max-width: 427px){
+    .girlcalledaadya_page{
+        width: 150% !important;
+        position: relative;
+        right: 12%;
+    }
+    .girlcalledaadya_basicinfo{
+        width: 132px;
+    }
+    .creator-name{
+        font-size: 132%;
+        margin-top: 22% !important;
+        margin-left: 25%;
+    }
+    .page-pfp{
+        display: none;
+    }
+    .number-of-videos{
+        font-size: 14px;
+        position: relative;
+        right: 1%;
+        margin-top: 11%;
+        margin-left: 22%;
+    }
+    .girlcalledaadya_insta{
+        width: 231px;
+    }
+    .girlcalledaadya_insta .username{
+        margin-top: 14%;
+        font-size: 88%;
+        position: relative;
+        left: 6%;
+    }
+    .girlcalledaadya_insta img{
+        width: 27px;
+        margin-top: 34%;
+        margin-left: 11%;
+    }
+    .girlcalledaadya_youtube{
+        display: none;
+    }
+}
+@media only screen and (min-width:428px) and (max-width:438px){
+    .girlcalledaadya_page{
+        width: 146% !important;
+        position: relative;
+        right: 12%;
+    }
+    .girlcalledaadya_basicinfo{
+        width: 132px;
+    }
+    .creator-name{
+        font-size: 132%;
+        margin-top: 22% !important;
+        margin-left: 25%;
+    }
+    .page-pfp{
+        display: none;
+    }
+    .number-of-videos{
+        font-size: 14px;
+        position: relative;
+        right: 1%;
+        margin-top: 11%;
+        margin-left: 22%;
+    }
+    .girlcalledaadya_insta{
+        width: 231px;
+    }
+    .girlcalledaadya_insta .username{
+        margin-top: 14%;
+        font-size: 88%;
+        position: relative;
+        left: 6%;
+    }
+    .girlcalledaadya_insta img{
+        width: 27px;
+        margin-top: 34%;
+        margin-left: 11%;
+    }
+    .girlcalledaadya_youtube{
+        display: none;
+    }
+}
+@media only screen and (min-width: 400px) and (max-width: 499px){
+    .flex-div .nav-left{
+        position: relative;
+        left: 5.5%;
+    }
+    .flex-div .nav-middle{
+        position: relative;
+        left: 5.5%;
+    }
+    .flex-div .nav-right{
+        position: relative;
+        left: 5.5%;
+    }
+    .menu-icon{
+        display: none;
+    }
+    .sidebar{
+        display: none;
+    }
+    .container, .large-container{
+        padding-right: 25%;
+    }
+    .about-vidunity{
+        display: none;
+    }
+    .nav-middle .search-box input{
+        width: 110px;
+        height: 22px;
+        position: relative;
+        left: 6%;
+    }
+    .nav-right .submit-video-icon{
+        display: none;
+    }
+    .nav-right .notification-bell{
+        display: none;
+    }
+    .vidunity-logo{
+        width: 108%;
+        padding-right: 6%;
+    }
+    .nav-middle .search-box{
+        padding-left: 6%;
+        border: 3.3px solid #7AC7FF;
+        position: relative;
+        left: 6%;
+    }
+    .nav-right .user-icon{
+        width: 33%;
+        position: relative;
+        left: 30%;
+        border-radius: 50%;
+    }
+    .video-details .thumbnail{
+        width: 132%;
+        border-radius: 6.25%;
+        position: relative;
+        right: 12%;
+    }
+    .video-details .flex-div{
+        position: relative;
+        right: 12%;
+        top: 6px;
+    }
+    .banner{
+        width: 132%;
+        position: relative;
+        right: 12%;
+    }
+}
+@media only screen and (min-width: 500px) and (max-width: 599px){
+    .flex-div .nav-left{
+        position: relative;
+        left: 5.5%;
+    }
+    .flex-div .nav-middle{
+        position: relative;
+        left: 5.5%;
+    }
+    .flex-div .nav-right{
+        position: relative;
+        left: 5.5%;
+    }
+    .menu-icon{
+        display: none;
+    }
+    .sidebar{
+        display: none;
+    }
+    .container, .large-container{
+        padding-right: 25%;
+    }
+    .about-vidunity{
+        display: none;
+    }
+    .nav-middle .search-box input{
+        width: 110px;
+        height: 22px;
+        position: relative;
+        left: 6%;
+    }
+    .nav-right .submit-video-icon{
+        display: none;
+    }
+    .nav-right .notification-bell{
+        display: none;
+    }
+    .vidunity-logo{
+        width: 108%;
+        padding-right: 6%;
+    }
+    .nav-middle .search-box{
+        padding-left: 6%;
+        border: 3.3px solid #7AC7FF;
+        position: relative;
+        left: 6%;
+    }
+    .nav-right .user-icon{
+        width: 33%;
+        position: relative;
+        left: 30%;
+        border-radius: 50%;
+    }
+    .video-details .thumbnail{
+        width: 132% !important;
+        border-radius: 6.25%;
+        position: relative;
+        right: 12%;
+    }
+    .video-details .flex-div{
+        position: relative;
+        right: 12%;
+        top: 6px;
+    }
+    .banner{
+        width: 132%;
+        position: relative;
+        right: 12%;
+    }
+}
+@media only screen and (max-width: 572px){
+    .flex-div .nav-left{
+        position: relative;
+        left: 5.5%;
+    }
+    .flex-div .nav-middle{
+        position: relative;
+        left: 0%;
+        width: 121%;
+    }
+    .flex-div .nav-right{
+        position: relative;
+        left: 5.5%;
+    }
+    .menu-icon{
+        display: none;
+    }
+    .sidebar{
+        display: none;
+    }
+    .container, .large-container{
+        padding-right: 25%;
+    }
+    .about-vidunity{
+        display: none;
+    }
+    .nav-middle .search-box input{
+        width: 198px;
+        height: 22px;
+        position: relative;
+        left: 6%;
+    }
+    .nav-right .submit-video-icon{
+        display: none;
+    }
+    .nav-right .notification-bell{
+        display: none;
+    }
+    .vidunity-logo{
+        width: 100%;
+        padding-right: 6%;
+    }
+    .nav-middle .search-box{
+        padding-left: 6%;
+        border: 4px solid #7AC7FF;
+        position: relative;
+        left: 12%;
+    }
+    .nav-right .user-icon{
+        width: 25%;
+        position: relative;
+        left: 30%;
+        border-radius: 50%;
+    }
+    .video-details .thumbnail{
+        width: 143% !important;
+        border-radius: 6.25%;
+        position: relative;
+        right: 12%;
+    }
+    .video-details .flex-div{
+        position: relative;
+        right: 12%;
+        top: 6px;
+    }
+    .girlcalledaadya_page{
+        width: 143%;
+        position: relative;
+        right: 12%;
+    }
+    .girlcalledaadya_basicinfo{
+        width: 132px;
+    }
+    .creator-name{
+        font-size: 132%;
+        position: relative;
+        right: 3%;
+        margin-top: 28%;
+    }
+    .page-pfp{
+        display: none;
+    }
+    .number-of-videos{
+        font-size: 14px;
+        position: relative;
+        right: 1%;
+        margin-top: 11%;
+    }
+    .girlcalledaadya_insta{
+        width: 231px;
+    }
+    .girlcalledaadya_insta .username{
+        margin-left: 6%;
+        margin-top: 14%;
+        font-size: 88%;
+    }
+    .girlcalledaadya_insta img{
+        width: 27px;
+        margin-top: 34%;
+    }
+    .girlcalledaadya_youtube{
+        display: none;
+    }
+}
+@media only screen and (min-width: 573px) and (max-width: 700px){
+    .flex-div .nav-left{
+        position: relative;
+        left: 5.5%;
+    }
+    .flex-div .nav-middle{
+        position: relative;
+        left: 0%;
+        width: 121%;
+    }
+    .flex-div .nav-right{
+        position: relative;
+        left: 5.5%;
+    }
+    .menu-icon{
+        display: none;
+    }
+    .sidebar{
+        display: none;
+    }
+    .container, .large-container{
+        padding-right: 25%;
+    }
+    .about-vidunity{
+        display: none;
+    }
+    .nav-middle .search-box input{
+        width: 198px;
+        height: 22px;
+        position: relative;
+        left: 6%;
+    }
+    .nav-right .submit-video-icon{
+        display: none;
+    }
+    .nav-right .notification-bell{
+        display: none;
+    }
+    .vidunity-logo{
+        width: 100%;
+        padding-right: 6%;
+    }
+    .nav-middle .search-box{
+        padding-left: 6%;
+        border: 4px solid #7AC7FF;
+        position: relative;
+        left: 12%;
+    }
+    .nav-right .user-icon{
+        width: 25%;
+        position: relative;
+        left: 30%;
+        border-radius: 50%;
+    }
+    .video-details .thumbnail{
+        width: 143% !important;
+        border-radius: 6.25%;
+        position: relative;
+        right: 12%;
+    }
+    .video-details .flex-div{
+        position: relative;
+        right: 12%;
+        top: 6px;
+    }
+    .girlcalledaadya_page{
+        width: 143%;
+        position: relative;
+        right: 12%;
+    }
+    .girlcalledaadya_basicinfo{
+        width: 132px;
+    }
+    .creator-name{
+        font-size: 132%;
+        position: relative;
+        right: 3%;
+        margin-top: 28%;
+    }
+    .page-pfp{
+        display: none;
+    }
+    .number-of-videos{
+        font-size: 14px;
+        position: relative;
+        right: 1%;
+        margin-top: 11%;
+    }
+    .girlcalledaadya_insta{
+        width: 231px;
+    }
+    .girlcalledaadya_insta .username{
+        margin-left: 6%;
+        margin-top: 14%;
+        font-size: 88%;
+    }
+    .girlcalledaadya_insta img{
+        width: 27px;
+        margin-top: 34%;
+    }
+    .girlcalledaadya_youtube{
+        width: 187px;
+    }
+    .girlcalledaadya_youtube .username{
+        margin-left: 6%;
+        margin-top: 6%;
+        font-size: 99%;
+    }
+    .girlcalledaadya_youtube img{
+        width: 27px;
+        margin-top: 34%;
+    }
+}
+@media only screen and (min-width: 701px) and (max-width: 891px){
+    .girlcalledaadya_page{
+        font-size: 88%;
+    }
+    .creator-name{
+        font-size: 209%;
+        margin-left: 15%;
+    }
+}
+@media only screen and (min-width: 701px) and (max-width: 950px){
+    .flex-div{
+        width: 660px;
+    }
+    .flex-div .nav-left{
+        position: relative;
+        left: 5%;
+    }
+    .flex-div .nav-middle{
+        position: relative;
+        left: 11%;
+        width: 66%;
+    }
+    .flex-div .nav-right{
+        position: relative;
+        left: 5.5%;
+    }
+    .menu-icon{
+        display: none;
+    }
+    .sidebar{
+        display: none;
+    }
+    .container, .large-container{
+        padding-right: 25%;
+        position: relative;
+        right: 14px;
+    }
+    .about-vidunity{
+        display: none;
+    }
+    .nav-middle .search-box input{
+        width: 110px;
+        height: 22px;
+        position: relative;
+        left: 6%;
+    }
+    .nav-right .submit-video-icon{
+        display: none;
+    }
+    .nav-right .notification-bell{
+        display: none;
+    }
+    .vidunity-logo{
+        width: 165%;
+    }
+    .nav-middle .search-box{
+        padding-left: 6%;
+        border: 4px solid #7AC7FF;
+        margin-left: 12%;
+        width: 550px;
+    }
+    .nav-right .user-icon{
+        width: 33%;
+        margin-left: 30%;
+        border-radius: 50%;
+    }
+    .videos-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-column-gap: 32%;
+        grid-row-gap: 30px;
+        margin-top: 15px;
+    }
+    .video-details .thumbnail{
+        width: 143%;
+        border-radius: 6.25%;
+        position: relative;
+        right: 12%;
+    }
+    .video-details .flex-div{
+        position: relative;
+        right: 12%;
+        top: 6px;
+    }
+    .girlcalledaadya_page{
+        width: 143%;
+        position: relative;
+        right: 12%;
+    }
+    .girlcalledaadya_basicinfo{
+        width: 132px;
+    }
+    .page-pfp{
+        display: none;
+    }
+    .number-of-videos{
+        font-size: 115%;
+    }
+    .girlcalledaadya_insta{
+        width: 209px;
+    }
+    .girlcalledaadya_youtube{
+        width: 209px;
+    }
+}
+@media only screen and (min-width: 950px) and (max-width: 1006px){
+    body{
+        overflow-x: hidden;
+    }
+    .flex-div{
+        width: 134% !important;
+    }
+    .sidebar{
+        font-size: 121%;
+    }
+    .container, .large-container{
+        padding-left: 20% !important;
+        width: 117% !important;
+        font-size: 110%;
+    }
+    .large-container{
+        padding-left: 8% !important;
+        width: 115% !important;
+    }
+    .flex-div{
+        width: 110%;
+    }
+    .notification-bell{
+        padding-right: 3%;
+    }
+    .user-icon{
+        position: relative;
+        right: 3%;
+    }
+    .banner{
+        width: 117%;
+        margin-left: 3%;
+    }
+    .videos-container{
+        width: 117%;
+        margin-left: 3%;
+    }
+    .channel-icon{
+        width: 60px !important;
+    }
+    .video-title{
+        width: 80%;
+    }
+    .girlcalledaadya_page{
+        width: 117%;
+        margin-left: 27px;
+    }
+    .girlcalledaadya_basicinfo{
+        width: 40%;
+    }
+    .girlcalledaadya_insta{
+        width: 30%;
+    }
+    .girlcalledaadya_youtube{
+        width: 30%;
+    }
+}
+@media only screen and (min-width: 1006px) and (max-width:1099px){
+    body{
+        overflow-x: hidden;
+    }
+    .flex-div{
+        width: 128% !important;
+    }
+    .container, .large-container{
+        padding-left: 20% !important;
+        width: 110%;
+        font-size: 110%;
+    }
+    .large-container{
+        padding-left: 8% !important;
+    }
+    .notification-bell{
+        padding-right: 3%;
+    }
+    .user-icon{
+        position: relative;
+        right: 3%;
+    }
+    .sidebar{
+        font-size: 121%;
+    }
+    .banner{
+        width: 117%;
+        margin-left: 3%;
+    }
+    .videos-container{
+        width: 117%;
+        margin-left: 3%;
+    }
+    .channel-icon{
+        width: 66px !important;
+    }
+    .video-title{
+        width: 80%;
+    }
+    .girlcalledaadya_page{
+        margin-left: 3%;
+        width: 117%;
+    }
+    .girlcalledaadya_basicinfo{
+        width: 40%;
+    }
+    .girlcalledaadya_insta{
+        width: 30%;
+    }
+    .girlcalledaadya_youtube{
+        width: 30%;
+    }
+}
+@media only screen and (min-width: 1100px) and (max-width:1199px){
+    body{
+        overflow-x: hidden;
+    }
+    .flex-div{
+        width: 121% !important;
+    }
+    .container, .large-container{
+        padding-left: 20% !important;
+        width: 110%;
+    }
+    .large-container{
+        padding-left: 8% !important;
+    }
+    .notification-bell{
+        padding-right: 3%;
+    }
+    .user-icon{
+        position: relative;
+        right: 3%;
+    }
+    .videos-container{
+        width: 112%;
+        margin-left: 1%;
+    }
+    .girlcalledaadya_page{
+        margin-left: 1%;
+        width: 112%;
+    }
+    .girlcalledaadya_basicinfo{
+        width: 40%;
+    }
+    .girlcalledaadya_insta{
+        width: 30%;
+    }
+    .girlcalledaadya_youtube{
+        width: 30%;
+    }
+}
+@media only screen and (min-width: 1203px) and (max-width: 1315px){
+    .video-title{
+        width: 99%;
+    }
+}
+@media only screen and (min-width: 1316px) and (max-width: 1500px){
+    body{
+        overflow-x: hidden;
+    }
+    .container, .large-container{
+        padding-left: 18%;
+        width: 110%;
+    }
+    .large-container{
+        padding-left: 8%;
+    }
+    .flex-div{
+        width: 110%;
+    }
+    .notification-bell{
+        padding-right: 3%;
+    }
+    .user-icon{
+        position: relative;
+        right: 3%;
+    }
+    .girlcalledaadya_basicinfo{
+        width: 40%;
+    }
+    .girlcalledaadya_insta{
+        width: 30%;
+    }
+    .girlcalledaadya_youtube{
+        width: 30%;
+    }
+}
+@media only screen and (min-width:1529px) and (max-width: 1600px){
+    .flex-div{
+        width: 110%;
+    }
+    .container, .large-container{
+        padding-left: 18%;
+        width: 110%;
+    }
+    .large-container{
+        padding-left: 8%;
+    }
+    .girlcalledaadya_basicinfo{
+        width: 40%;
+    }
+    .girlcalledaadya_insta{
+        width: 30%;
+    }
+    .girlcalledaadya_youtube{
+        width: 30%;
+    }
+}
+@media only screen and (min-width: 1601px) and (max-width: 10000px){
+    .girlcalledaadya_basicinfo{
+        width: 40%;
+    }
+    .girlcalledaadya_insta{
+        width: 30%;
+    }
+    .girlcalledaadya_youtube{
+        width: 30%;
+    }
+}
