@@ -26,6 +26,10 @@ nav{
     position: sticky;
     top: 0;
     z-index: 10;
+    width: 100%;
+}
+.nav-right{
+    transform: translateX(52%);
 }
 .nav-right img{
     margin-right: 0px;
@@ -34,14 +38,17 @@ nav{
     width: 88px;
 }
 .user-icon{
-    width: 44px;
-    border-radius: 50px;
+    width: 6.6%;
+    border-radius: 50%;
 }
 .notification-bell{
-    width: 77px;
+    width: 11%;
 }
 .about-vidunity{
-    width: 121px;
+    width: 18%;
+}
+.nav-middle{
+    transform: translateX(22%);
 }
 .nav-middle img{
     width: 34px;
@@ -53,20 +60,19 @@ nav{
 }
 .nav-middle .search-box input{
     width: 400px;
-    height: 22px;
     border: 0;
     outline: 0;
     background: transparent;
 }
 .vidunity-logo{
-    width: 177px;
-    margin-left: 11px;
+    width: 55%;
+    margin-left: 6%;
 }
 .moving-logo{
-    margin-left: 27px;
+    margin-left: 8%;
 }
 .menu-icon{
-    width: 36px;
+    width: 11%;
 }
 /* -------sidebar------------- */
 .sidebar{
