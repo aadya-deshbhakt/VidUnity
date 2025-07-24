@@ -31,14 +31,17 @@ nav{
     margin-right: 0px;
 }
 .submit-video-icon{
-    width: 110px;
+    width: 88px;
 }
 .user-icon{
-    width: 64px;
+    width: 44px;
     border-radius: 50px;
 }
 .notification-bell{
-    width: 100px;
+    width: 77px;
+}
+.about-vidunity{
+    width: 121px;
 }
 .nav-middle img{
     width: 34px;
@@ -50,9 +53,20 @@ nav{
 }
 .nav-middle .search-box input{
     width: 400px;
+    height: 22px;
     border: 0;
     outline: 0;
     background: transparent;
+}
+.vidunity-logo{
+    width: 177px;
+    margin-left: 11px;
+}
+.moving-logo{
+    margin-left: 27px;
+}
+.menu-icon{
+    width: 36px;
 }
 /* -------sidebar------------- */
 .sidebar{
