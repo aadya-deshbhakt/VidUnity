@@ -26,26 +26,19 @@ nav{
     position: sticky;
     top: 0;
     z-index: 10;
-    width: 100%;
 }
-.nav-right{
-    transform: translateX(52%);
+.nav-right img{
+    margin-right: 0px;
 }
 .submit-video-icon{
-    width: 11%;
+    width: 110px;
 }
 .user-icon{
-    width: 6.6%;
-    border-radius: 50%;
+    width: 64px;
+    border-radius: 50px;
 }
 .notification-bell{
-    width: 11%;
-}
-.about-vidunity{
-    width: 18%;
-}
-.nav-middle{
-    transform: translateX(22%);
+    width: 100px;
 }
 .nav-middle img{
     width: 34px;
@@ -61,16 +54,6 @@ nav{
     outline: 0;
     background: transparent;
 }
-.vidunity-logo{
-    width: 55%;
-    margin-left: 6%;
-}
-.moving-logo{
-    margin-left: 8%;
-}
-.menu-icon{
-    width: 11%;
-}
 /* -------sidebar------------- */
 .sidebar{
     width: 15%;
@@ -78,34 +61,35 @@ nav{
     position: fixed;
     top: 0;
     padding-left: 1.6%;
-    padding-top: 10%;
+    padding-top: 165px;
     background: #ffffff;
 }
 .sidebar .home-icon{
-    width: 44%;
+    width: 50px;
 }
 .sidebar .Following{
-    width: 44%;
+    width: 50px;
 }
 .sidebar .Categories{
-    width: 44%;
+    width: 50px;
 }
 .sidebar .History{
-    width: 44%;
+    width: 50px;
 }
 .sidebar .Messages{
-    width: 44%;
+    width: 50px;
 }
 .sidebar .Saved{
-    width: 44%;
+    width: 50px;
 }
 .shortcut-links a img{
+    width: 20px;
     margin-right: 20px;
 }
 .shortcut-links a{
     display: flex;
     align-items: center;
-    margin-bottom: 11%;
+    margin-bottom: 20px;
     width: fit-content;
     flex-wrap: wrap;
 }
@@ -119,35 +103,25 @@ nav{
     width: 85%;
 }
 .creators-list h3{
-    font-size: 132%;
-    margin: 11% 0;
+    font-size: 22px;
+    margin: 20px 0;
     color: #000000;
     font-family: cursive;
 }
 .creators-list a{
     display: flex;
     align-items: center;
-    margin-bottom: 11%;
+    margin-bottom: 20px;
     width: fit-content;
     flex-wrap: wrap;
 }
 .creators-list a img{
-    width: 22%;
-    border-radius: 50%;
-    margin-right: 11%;
+    width: 50px;
+    border-radius: 50px;
+    margin-right: 20px;
 }
 .moving-sidebar{
     width: 6.6%;
-}
-.moving-sidebar .shortcut-links img{
-    width: 100%;
-}
-.moving-sidebar .shortcut-links a{
-    margin-bottom: 28%;
-}
-.moving-sidebar .creators-list img{
-    width: 55%;
-    margin-left: 5%;
 }
 .moving-sidebar a p{
     display: none;
@@ -156,15 +130,15 @@ nav{
     display: none;
 }
 .moving-sidebar hr{
-    margin-bottom: 28%;
+    margin-bottom: 20px;
 }
 /* ----------- main --------- */
 .container{
     background: transparent;
     padding-left: 17%;
     padding-right: 2%;
-    padding-top: 1.5%;
-    padding-bottom: 1.5%;
+    padding-top: 22px;
+    padding-bottom: 22px;
 }
 .large-container{
     padding-left: 7%;
@@ -182,9 +156,9 @@ nav{
 .videos-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-column-gap: 1%;
+    grid-column-gap: 16px;
     grid-row-gap: 30px;
-    margin-top: 1%;
+    margin-top: 15px;
 }
 .video-details .thumbnail{
     width: 100%;
