@@ -191,7 +191,7 @@ nav{
 
 @media only screen and (max-width: 399px){
     .flex-div{
-        width: 140% !important;
+        width: 100%;
     }
     .flex-div .nav-left{
         position: relative;
@@ -212,7 +212,7 @@ nav{
         display: none;
     }
     .container, .large-container{
-        width: 132% !important;
+        width: 100%;
         padding-right: 25%;
     }
     .about-vidunity{
@@ -388,7 +388,7 @@ nav{
         border-radius: 50%;
     }
     .video-details .thumbnail{
-        width: 132% !important;
+        width: 100%;
         border-radius: 6.25%;
         position: relative;
         right: 12%;
@@ -458,7 +458,7 @@ nav{
         border-radius: 50%;
     }
     .video-details .thumbnail{
-        width: 132% !important;
+        width: 100%;
         border-radius: 6.25%;
         position: relative;
         right: 12%;
@@ -492,6 +492,9 @@ nav{
     }
     .sidebar{
         display: none;
+    }
+    .container{
+        width: 132% !important;
     }
     .container, .large-container{
         padding-right: 25%;
@@ -528,7 +531,7 @@ nav{
         border-radius: 50%;
     }
     .video-details .thumbnail{
-        width: 143% !important;
+        width: 100%;
         border-radius: 6.25%;
         position: relative;
         right: 12%;
@@ -539,7 +542,7 @@ nav{
         top: 6px;
     }
     .banner{
-        width: 143%;
+        width: 100%;
         position: relative;
         right: 12%;
     }
